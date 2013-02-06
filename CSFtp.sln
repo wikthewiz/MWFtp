@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MwFtp.util", "MWFtp.Util\MwFtp.util.csproj", "{89BB66A0-8A0B-46E9-9B14-03433B529BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWFtp.ftp", "MWftpFtp\MWFtp.ftp.csproj", "{3BFE4F46-3B33-4449-AA58-B2B2F6E0A464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWFtp.app", "MWFtpApp\MWFtp.app.csproj", "{CDF94EEB-2EDC-4CB2-A721-046B1D5ECBBE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MWFtpSetup", "MWFtpSetup\MWFtpSetup.vdproj", "{36CEFD3F-9E10-4A2F-8E76-D95F1BF8979F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89BB66A0-8A0B-46E9-9B14-03433B529BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BB66A0-8A0B-46E9-9B14-03433B529BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BB66A0-8A0B-46E9-9B14-03433B529BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BB66A0-8A0B-46E9-9B14-03433B529BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFE4F46-3B33-4449-AA58-B2B2F6E0A464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFE4F46-3B33-4449-AA58-B2B2F6E0A464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFE4F46-3B33-4449-AA58-B2B2F6E0A464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFE4F46-3B33-4449-AA58-B2B2F6E0A464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF94EEB-2EDC-4CB2-A721-046B1D5ECBBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF94EEB-2EDC-4CB2-A721-046B1D5ECBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF94EEB-2EDC-4CB2-A721-046B1D5ECBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF94EEB-2EDC-4CB2-A721-046B1D5ECBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36CEFD3F-9E10-4A2F-8E76-D95F1BF8979F}.Debug|Any CPU.ActiveCfg = Debug
+		{36CEFD3F-9E10-4A2F-8E76-D95F1BF8979F}.Release|Any CPU.ActiveCfg = Release
+		{36CEFD3F-9E10-4A2F-8E76-D95F1BF8979F}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
